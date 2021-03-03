@@ -1,11 +1,11 @@
 
 .container {
     text-align: center;
-    background: black;
+    background-color: black;
     color: #39ff14;
     font-family:Lucida Console, Courier, Monotype; 
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     width: 80%;
     display: inline-block;
 }
