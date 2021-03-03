@@ -7,6 +7,18 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
+.morpheus{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.neo{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+
 body {
     background-color: #282c34;
     color: white;

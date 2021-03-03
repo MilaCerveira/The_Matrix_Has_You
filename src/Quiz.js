@@ -67,7 +67,9 @@ export const Quiz = () => {
     }
     return (
         <div>
-            <img src='https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-morpheus-512.png' width="200" height="200" alt="Morpehus" />
+            <img className={'morpheus'} src='https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-morpheus-512.png'  alt="Morpehus" />
+
+            <img className={'neo'} src="https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-neo-man-white-512.png"   alt="Neo"/>
 
             <div className={'container'}>
                 <Grid >
@@ -98,7 +100,7 @@ export const Quiz = () => {
                 <div>Question {activeQuestion + 1} out of {questions.length}</div>
             </div>
             
-            <img src="https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-neo-man-white-512.png"  width="200" height="200" alt="Neo"/>
+            
 
         </div>
     );
