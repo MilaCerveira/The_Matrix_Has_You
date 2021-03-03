@@ -67,7 +67,8 @@ export const Quiz = () => {
     }
     return (
         <div>
-            
+            <img src='https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-morpheus-512.png' width="200" height="200" alt="Morpehus" />
+
             <div className={'container'}>
                 <Grid >
                     <Grid.Row columns={1}>
@@ -96,6 +97,8 @@ export const Quiz = () => {
                 </Grid>
                 <div>Question {activeQuestion + 1} out of {questions.length}</div>
             </div>
+            
+            <img src="https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-neo-man-white-512.png"  width="200" height="200" alt="Neo"/>
             
         </div>
     );
