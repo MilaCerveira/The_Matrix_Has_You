@@ -10,7 +10,7 @@ const mockData = [
         answers: [
             {
                 id: '1',
-                description: 'a language'
+                description: 'a programming language'
             },
             {
                 id: '2',
@@ -27,7 +27,29 @@ const mockData = [
         ],
         correctAnswer: '3'
     },
-
+    {
+        id: '2',
+        description: 'This is the second question?',
+        answers: [
+            {
+                id: '5',
+                description: 'an answer'
+            },
+            {
+                id: '6',
+                description: 'an answer'
+            },
+            {
+                id: '7',
+                description: 'an answer'
+            },
+            {
+                id: '8',
+                description: 'an answer'
+            }
+        ],
+        correctAnswer: '1'
+    }
     
 ]
 
