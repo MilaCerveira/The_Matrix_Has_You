@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from "semantic-ui-react";
 import { useState, useEffect } from 'react';
-
+import './Quiz.css'
 
 const mockData = [
     {
@@ -99,7 +99,7 @@ export const Quiz = () => {
             </div>
             
             <img src="https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-neo-man-white-512.png"  width="200" height="200" alt="Neo"/>
-            
+
         </div>
     );
 }

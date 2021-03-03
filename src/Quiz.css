@@ -1,0 +1,14 @@
+
+.container {
+    text-align: center;
+    background: black;
+    color: #39ff14;
+    font-family:Lucida Console, Courier, Monotype; 
+}
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
