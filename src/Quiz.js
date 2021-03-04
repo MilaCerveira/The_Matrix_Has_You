@@ -66,8 +66,11 @@ export const Quiz = () => {
         return <div>loading the Matrix...</div>
     }
     return (
-        <div>
+        <>
             <img className={'morpheus'} src='https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-morpheus-512.png'  alt="Morpehus" />
+
+            
+
 
             <img className={'neo'} src="https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/celebrity-matrix-neo-man-white-512.png"   alt="Neo"/>
 
@@ -102,7 +105,7 @@ export const Quiz = () => {
             
             
 
-        </div>
+        </>
     );
 }
 export default Quiz;
